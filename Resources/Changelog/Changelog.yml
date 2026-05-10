@@ -4797,3 +4797,10 @@ Entries:
   id: 5855
   time: '2026-05-10T19:38:32.0000000+00:00'
   url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/467
+- author: Misterzeppelin
+  changes:
+    - type: Add
+      message: 'That Gun can be fired now '
+  id: 5856
+  time: '2026-05-10T19:38:44.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/466
