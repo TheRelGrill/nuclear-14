@@ -4841,3 +4841,10 @@ Entries:
   id: 5860
   time: '2026-05-11T17:55:11.0000000+00:00'
   url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/469
+- author: Misterzeppelin
+  changes:
+    - type: Add
+      message: Adjusted job roles to reflect Nightkin species requirements
+  id: 5861
+  time: '2026-05-11T21:43:09.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/478
