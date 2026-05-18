@@ -26,8 +26,8 @@
         - !type:HealthChange
           damage:
             groups:
-              Burn: -12 # 12/3 = 4 | 4*25 = 100 of every type in 25 seconds. 
-              Brute: -12 # 12/3 = 4 | 4*25 = 100 of every type in 25 seconds. 
+              Burn: -9 # 9/3 = 3 | 3*25 = 75 of every type in 25 seconds. 
+              Brute: -9 # 9/3 = 3 | 3*25 = 75 of every type in 25 seconds. 
               Airloss: -3
         - !type:ModifyBleedAmount
           amount: -2
