@@ -8,7 +8,7 @@
   canBeAntag: true
   name: job-name-ncr-executive-officer
   description: job-description-ncr-executive-officer
-  playTimeTracker: NCROfficer
+  playTimeTracker: NCRExecutiveOfficer
   requirements:
     - !type:CharacterSpeciesRequirement
       species:
@@ -58,4 +58,4 @@
     - N14BoxPlasticFilledMilitaryNCR
 
 - type: playTimeTracker
-  id: NCROfficer
+  id: NCRExecutiveOfficer

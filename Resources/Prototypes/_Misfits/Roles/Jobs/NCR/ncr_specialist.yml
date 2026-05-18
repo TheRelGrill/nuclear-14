@@ -9,7 +9,7 @@
   canBeAntag: false
   name: job-name-ncr-weapon-specialist
   description: job-description-ncr-weapon-specialist
-  playTimeTracker: NCRWS
+  playTimeTracker: NCRWeaponSpecialist
   requirements:
     - !type:CharacterSpeciesRequirement
       species:
@@ -56,4 +56,4 @@
     - N14BoxPlasticFilledMilitaryNCR
 
 - type: playTimeTracker
-  id: NCRWS
+  id: NCRWeaponSpecialist

@@ -122,9 +122,8 @@
     - NCRCommander
     - NCRMajor
   - !type:CharacterPlaytimeRequirement
-    tracker: NCRNCO
+    tracker: NCRSquadLeader
     min: 72000 # 20 hours veterancy unlock
-    # Note: Uses NCRNCO tracker; NCO slots 2-4 and senior roles use their own trackers.
   items:
   - N14ClothingOuterNCRCombatVeteranArmorDesert
 

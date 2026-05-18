@@ -73,7 +73,11 @@ public sealed class NCRRankPinSpawnSystem : EntitySystem
         var total = TimeSpan.Zero;
         foreach (var role in dept.Roles)
         {
-            if (times.TryGetValue(role.Id, out var roleTime))
+            // Resolve the job's actual playTimeTracker ID so renamed trackers are found correctly.
+            var trackerId = _proto.TryIndex<JobPrototype>(role, out var jobProto)
+                ? jobProto.PlayTimeTracker
+                : role.Id;
+            if (times.TryGetValue(trackerId, out var roleTime))
                 total += roleTime;
         }
         return (int)total.TotalSeconds;

@@ -9,7 +9,7 @@
   canBeAntag: false
   name: job-name-ncr-recruit
   description: job-description-ncr-recruit
-  playTimeTracker: NCRCadet
+  playTimeTracker: NCRTrooper
   requirements:
     - !type:CharacterSpeciesRequirement
       species:
@@ -50,4 +50,4 @@
     - N14BoxPlasticFilledMilitaryNCR
 
 - type: playTimeTracker
-  id: NCRCadet
+  id: NCRTrooper

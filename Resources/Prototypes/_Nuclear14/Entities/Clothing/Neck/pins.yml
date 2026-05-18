@@ -36,7 +36,7 @@
 - type: entity
   parent: ClothingNeckPinNCRPrivate
   id: ClothingNeckPinNCRPrivate1st
-  name: private 1st pin
+  name: private first class pin
   components:
   - type: RankTitle
     rankTitle: Private First Class

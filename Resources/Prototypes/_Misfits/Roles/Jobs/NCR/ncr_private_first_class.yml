@@ -1,6 +1,6 @@
 - type: job
   id: NCRPrivateFirstClass
-  setPreference: true
+  setPreference: false # RETIRED — PFC is now a rank pin earned through NCRTrooper/specialist progression
   hideIfPlaytimeRequirementsNotMet: false # #Misfits Tweak - all jobs visible in selection
   jobWhitelistBypassesRoleTimers: true # #Misfits Change
   weight: 30

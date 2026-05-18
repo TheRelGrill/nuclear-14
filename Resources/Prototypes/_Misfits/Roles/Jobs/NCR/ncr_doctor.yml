@@ -9,7 +9,7 @@
   canBeAntag: false
   name: job-name-ncr-doctor
   description: job-description-ncr-doctor
-  playTimeTracker: NCRDoctor
+  playTimeTracker: NCRMedicalDoctor
   requirements:
     - !type:CharacterSpeciesRequirement
       species:
@@ -53,4 +53,4 @@
     - N14BoxPlasticFilledMilitaryNCR
 
 - type: playTimeTracker
-  id: NCRDoctor
+  id: NCRMedicalDoctor
