@@ -35,15 +35,17 @@
       - type: NpcFactionMember
         factions:
           - PlayerRaider
+          - Wastelander
 
 - type: startingGear
   id: EightiesTheBlockGear
   equipment:
     bandage: NCClothingBandageRaiders
+    hands: N14ClothingHandsGlovesBlackBiker
     jumpsuit: MisfitsClothingTheBlockPants
     outerClothing: MisfitsClothingOuterTheBlockArmor
     mask: MisfitsClothingTheBlockMask
-    shoes: N14ClothingShoesRaider
+    shoes: ClothingShoesBootsJack
     neck: ClothingNeckBlackScarf
     head: N14ClothingHeadHatBeanie
     ears: MisfitsClothingHeadsetWastelandScrap
@@ -94,6 +96,7 @@
       - type: NpcFactionMember
         factions:
           - PlayerRaider
+          - Wastelander
 
 - type: startingGear
   id: EightiesCylindersGear
@@ -150,6 +153,7 @@
       - type: NpcFactionMember
         factions:
           - PlayerRaider
+          - Wastelander
 
 - type: startingGear
   id: EightiesPistonsGear
@@ -206,6 +210,7 @@
       - type: NpcFactionMember
         factions:
           - PlayerRaider
+          - Wastelander
 
 - type: startingGear
   id: EightiesOilersGear
@@ -262,6 +267,7 @@
       - type: NpcFactionMember
         factions:
           - PlayerRaider
+          - Wastelander
 
 - type: startingGear
   id: EightiesRoadRashGear
